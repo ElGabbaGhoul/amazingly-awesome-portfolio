@@ -5,7 +5,6 @@
         {name: "Home", link:' '},
         {name: "Projects", link:'#projects'},
         {name: "About Me", link:'#about'},
-        // {name: "Contact", link:'#contact'},
     ];
 </script>
 
@@ -15,7 +14,7 @@
     <h1 class="font-medium">
         <b class="font-bold poppins">Scott</b> Nideffer
     </h1>
-    <div class="sm:flex items-center gap-4 hidden">
+    <div class="sm:flex ml-auto pr-4 items-center gap-4 hidden">
         {#each tabs as tab}
         <a href={tab.link} class="duration-200 hover:text-violet-400">
             <p>{tab.name}</p>
