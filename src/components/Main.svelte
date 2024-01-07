@@ -17,7 +17,7 @@
     {
       name: "a product design & UX fanatic",
       description:
-        "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I Have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
+        "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
     },
     {
       name: "an excellent communicator",
@@ -35,7 +35,7 @@
     <div
       class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
     >
-      <h2 class="font-semibold text-4xl sm:text-5xl md text-6xl">
+      <h2 class="font-semibold text-4xl sm:text-5xl md md:text-6xl">
         Hi, I'm <span class="poppins text-violet-400">Scott</span> Nideffer!
         <br />Full Stack <span class="poppins text-violet-400">Developer</span>,
         <span class="poppins text-violet-400">Engineering</span> Student
@@ -45,11 +45,10 @@
         C++, JavaScript (SvelteKit or React), TailwindCSS, Node.js, PostrgreSQL,
         and MongoDB!
       </p>
-      <!-- Url to socials go here -->
       <a
-        href="#"
+        href="https://www.linkedin.com/in/scott-nideffer"
         target="_blank"
-        class="BlueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer"
+        class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer"
       >
         <div
           class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
@@ -158,7 +157,9 @@
         </div>
       {/each}
     </div>
-    <h5>The <span class="text-violet-400">Complete</span> Package</h5>
+    <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">
+      The <span class="text-violet-400 poppins">Complete</span> Package
+    </h5>
     <div
       class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
     >
@@ -177,13 +178,50 @@
         <tbody class="">
           <tr class="border-b border-solid border-slate-200">
             <td
-              class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
+              class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
               >Dedication</td
             >
             <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+            <td><i class="fa-solid fa-check text-slate-500"></i></td>
+            <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+            <td><i class="fa-solid fa-check text-green-500"></i></td>
+          </tr>
+          <tr class="border-b border-solid border-slate-200">
+            <td
+              class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+              >Critical Thought</td
+            >
+            <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+            <td><i class="fa-solid fa-check text-slate-500"></i></td>
+            <td><i class="fa-solid fa-check text-slate-500"></i></td>
+            <td><i class="fa-solid fa-check text-green-500"></i></td>
+          </tr>
+          <tr class="border-b border-solid border-slate-200">
+            <td
+              class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+              >Interpersonal Skills</td
+            >
+            <td><i class="fa-solid fa-check text-slate-500"></i></td>
+            <td><i class="fa-solid fa-check text-slate-500"></i></td>
+            <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+            <td><i class="fa-solid fa-check text-green-500"></i></td>
+          </tr>
+          <tr class="border-b border-solid border-slate-200">
+            <td
+              class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm whitespace-nowrap"
+              >Programming Ability</td
+            >
+            <td><i class="fa-solid fa-check text-slate-500"></i></td>
+            <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
+            <td><i class="fa-solid fa-check text-slate-500"></i></td>
+            <td><i class="fa-solid fa-check text-green-500"></i></td>
           </tr>
         </tbody>
       </table>
     </div>
+    <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
+      <p>Scroll to see more &rarr;</p>
+    </div>
+    <p class="mx-auto">So why not invest?</p>
   </section>
 </main>
