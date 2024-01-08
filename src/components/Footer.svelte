@@ -8,7 +8,10 @@
     <p><b class="pr-2">Email</b> nideffer.scott@gmail.com</p>
     <p>
       <b class="pr-2">GitHub</b>
-      <a href="#" class="text-violet-400" target="_blank"
+      <a
+        href="https://www.github.com/ElGabbaGhoul"
+        class="text-violet-400"
+        target="_blank"
         >El Gabba Ghoul <sup
           ><span class="text-xs scale-75 pl-0.5"
             ><i
@@ -20,7 +23,10 @@
     </p>
     <p>
       <b class="pr-2">LinkedIn</b>
-      <a href="#" class="text-violet-400" target="_blank"
+      <a
+        href="https://www.linkedin.com/in/scott-nideffer"
+        class="text-violet-400"
+        target="_blank"
         >Scott Nideffer<sup
           ><span class="text-xs scale-75 pl-0.5"
             ><i

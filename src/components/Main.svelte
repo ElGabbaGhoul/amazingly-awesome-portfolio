@@ -57,13 +57,8 @@
       </a>
     </div>
     <div class="relative shadow-2xl grid place-items-center">
-      <!-- PLEASE FOR THE LOVE OF FUCK -->
-      <!-- DO NOT FORGET TO CHANGE THIS -->
-      <!-- THIS IS NOT A PICTURE OF YOU -->
-      <!-- THIS IS A PICTURE OF HADES FROM -->
-      <!-- DISNEY'S HERCULES -->
       <img
-        src={"images/hades.png"}
+        src={"images/FramedTransparentScooter.png"}
         alt="professional head shot goes here"
         class="object-cover z-[2] max-h-[70vh]"
       />
