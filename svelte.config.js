@@ -16,12 +16,9 @@ const config = {
     ),
     files: {
       assets:'docs',
-      hooks: 'docs/hooks',
       lib: 'docs/lib',
       routes: 'docs/routes',
       serviceWorker: 'docs',
-      setup: 'docs/setup',
-      static: 'docs/static'
     },
   },
   preprocess: vitePreprocess(),
