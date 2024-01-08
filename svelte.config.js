@@ -5,6 +5,9 @@ const config = {
 	kit: {
 		adapter: adapter()
 	},
-	preprocess: vitePreprocess()
+  preprocess: vitePreprocess(),
+  paths: {
+    base: '/amazingly-awesome-portfolio/'
+  },
 };
 export default config;
