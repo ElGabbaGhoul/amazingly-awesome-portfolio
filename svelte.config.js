@@ -16,9 +16,7 @@ const config = {
     )
 	},
   preprocess: vitePreprocess(),
-  paths: {
-    base: dev ? '' : '/amazingly-awesome-portfolio',
-  },
+  paths: '/amazingly-awesome-portfolio',
   appDir: 'internal',
 };
 export default config;
