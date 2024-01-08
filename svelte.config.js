@@ -6,8 +6,6 @@ const config = {
 		adapter: adapter()
 	},
   preprocess: vitePreprocess(),
-  paths: {
-    base: '/amazingly-awesome-portfolio/'
-  },
+  paths: '/amazingly-awesome-portfolio/',
 };
 export default config;
